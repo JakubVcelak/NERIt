@@ -1,0 +1,111 @@
+.resultContainer {
+    border-radius: 5px;
+    margin-top: 20px;
+    border: #FF4942 solid 6px;
+    box-shadow: #7e7e7e 2px 2px;
+}
+
+.infoTab {
+    background-color: #222229;
+    border-bottom: solid #FF4942 5px;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding: 3px 9px 3px 5px;
+}
+
+
+.info {
+    background: #222229;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 3px 7px 3px 7px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #f1d18a solid 3px;
+}
+
+
+.resultInfoLabel {
+    margin: 0 10px 0 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #222229;
+    font-size: 22px;
+    padding: 1px 0 2px 0;
+    color: #ffffff;
+    border-bottom: #ffffff solid 4px;
+    border-top: #ffffff solid 3px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border: solid #ffffff 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .infoTab {
+        line-height: 32px;
+        font-size: 16px;
+        border-bottom: solid #FF4942 4px;
+    }
+
+    .info {
+        padding: 2px 7px 2px 7px;
+        font-size: 18px;
+        border: #f1d18a solid 3px;
+    }
+
+    .resultInfoLabel {
+        margin: 0 5px 0 0;
+        font-size: 18px;
+        border-bottom: #ffffff solid 3px;
+        border-top: #ffffff solid 2px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .resultContainer {
+        border: #FF4942 solid 5px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .infoTab {
+        line-height: 25px;
+        font-size: 13px;
+        padding: 3px 2px 3px 3px;
+        border-bottom: solid #FF4942 2px;
+    }
+
+    .info {
+        font-size: 15px;
+        border: #f1d18a solid 2px;
+        padding: 0px 7px 1px 7px;
+    }
+
+    .resultInfoLabel {
+        font-size: 15px;
+        border-bottom: #ffffff solid 2px;
+        border-top: #ffffff solid 1px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .resultContainer {
+        border: #FF4942 solid 3px;
+        margin-top: 10px;
+    }
+}

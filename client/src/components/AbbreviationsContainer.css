@@ -1,0 +1,58 @@
+.abbreviationsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abbreviationInfo {
+    background: #222229;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 8px 3px 7px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    border: #f1d18a solid 4px;
+    box-shadow: #7e7e7e 2px 2px;
+}
+
+.abbreviations {
+    background: #222229;
+    color: #ffffff;
+    padding: 4px 0 0px 0px;
+    margin-right: 5px;
+    border-bottom: #FF4942 solid 3px;
+}
+
+@media screen and (max-width: 1280px) {
+    .abbreviationInfo {
+        padding: 3px 8px 3px 7px;
+        margin-right: 7px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .abbreviationsContainer {
+        display: block;
+        max-width: 95%;
+    }
+
+    .abbreviationInfo {
+        padding: 3px 3px 3px 7px;
+        margin-right: 5px;
+        font-size: 15px;
+        line-height: 19px;
+        border: #f1d18a solid 2px;
+        margin-bottom: 8px;
+        width: 100%;
+        display: block;
+    }
+
+    .abbreviations {
+        border-bottom: #FF4942 solid 1px;
+    }
+}

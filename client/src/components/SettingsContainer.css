@@ -1,0 +1,237 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 10px 0;
+}
+
+.center p {
+    background: #222229;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 5px 5px 3px 5px;
+    margin: 10px 0 10px 0;
+    color: #ffffff;
+    border-bottom: #ffffff solid 5px;
+    border-top: #ffffff solid 5px;
+}
+
+.selectLanguage {
+    color: white;
+    background: #222229;
+    border-radius: 10px;
+    padding: 3px 2px 3px 5px;
+    margin: 10px 0 10px 10px;
+    font-size: 21px;
+    border: #FF4942 solid 5px;
+    cursor: pointer;
+    box-shadow: #7e7e7e 2px 2px;
+}
+
+.selectLanguage:hover {
+    border: #FF4942 solid 4px;
+    font-size: 22px;
+}
+
+.checkBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 45px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entityChoose {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 10px 0;
+    padding: 3px 6px 3px 6px;
+    background: #222229;
+    color: #ffffff;
+    border-bottom: #ffffff solid 5px;
+    border-top: #ffffff solid 5px;
+}
+
+.checkBox {
+    display: none;
+}
+
+.checkBox + label {
+    background: #222229;
+    border-radius: 10px;
+    padding: 3px 6px;
+    margin-right: 12px;
+    border: #f1d18a solid 3px;
+    box-shadow: #7e7e7e 2px 2px;
+}
+
+.checkBox:hover + label {
+    padding: 5px 8px;
+    font-size: 21px;
+    cursor: pointer;
+    border: #f1d18a solid 3px;
+}
+
+.checkBox:checked + label {
+    color: #ffffff;
+    border: #FF4942 solid 4px;
+}
+
+.submitButton {
+    font-size: 25px;
+    background: #222229;
+    border-radius: 10px;
+    padding: 10px 250px 10px 250px;
+    margin: 15px 0 5px 0;
+    color: #ffffff;
+    font-weight: bold;
+    border: #ffffff solid 5px;
+    box-shadow: #7e7e7e 2px 2px;
+}
+
+.submitButton:hover {
+    padding: 12px 252px 12px 252px;
+    font-size: 27px;
+    border: #ffffff solid 4px;
+    cursor: pointer;
+}
+
+.loading {
+    margin: 20px 0 20px 0;
+    width: 70px;
+    height: 70px;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .center p {
+        font-size: 18px;
+        border-bottom: #ffffff solid 4px;
+        border-top: #ffffff solid 4px;
+    }
+
+    .selectLanguage {
+        font-size: 18px;
+    }
+
+    .selectLanguage:hover {
+        font-size: 18px;
+        border: #FF4942 solid 5px;
+    }
+
+    .entityChoose {
+        font-size: 18px;
+        margin: 10px 0 5px 0;
+        border-bottom: #ffffff solid 4px;
+        border-top: #ffffff solid 4px;
+    }
+
+    .checkBoxes {
+        line-height: 40px;
+        margin-bottom: 5px;
+        font-size: 17px;
+    }
+
+    .checkBox + label {
+        margin-right: 6px;
+    }
+
+    .checkBox:hover + label {
+        padding: 3px 6px;
+        font-size: 17px;
+    }
+
+    .submitButton {
+        font-size: 21px;
+        padding: 8px 150px 8px 150px;
+        margin: 15px 0 10px 0;
+    }
+
+    .submitButton:hover {
+        padding: 9px 151px 9px 151px;
+        font-size: 22px;
+    }
+
+    .loading {
+        margin: 15px 0 15px 0;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .center p {
+        font-size: 16px;
+        border-bottom: #ffffff solid 3px;
+        border-top: #ffffff solid 3px;
+    }
+
+    .selectLanguage {
+        font-size: 15px;
+        border: #FF4942 solid 3px;
+    }
+
+    .selectLanguage:hover {
+        font-size: 15px;
+        border: #FF4942 solid 3px;
+    }
+
+    .checkBoxes {
+        line-height: 33px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .entityChoose {
+        font-size: 16px;
+        margin: 10px 0 5px 0;
+        border-bottom: #ffffff solid 3px;
+        border-top: #ffffff solid 3px;
+    }
+
+    .checkBox + label {
+        margin-right: 5px;
+        border: #f1d18a solid 2px;
+    }
+
+    .checkBox:hover + label {
+        padding: 3px 6px;
+        font-size: 15px;
+        border: #f1d18a solid 2px;
+    }
+
+    .checkBox:checked + label {
+        border: #FF4942 solid 2px;
+    }
+
+    .submitButton {
+        font-size: 19px;
+        padding: 6px 100px 6px 100px;
+        margin: 15px 0 8px 0;
+        border: #ffffff solid 3px;
+    }
+
+    .submitButton:hover {
+        font-size: 19px;
+        padding: 6px 100px 6px 100px;
+        border: #ffffff solid 3px;
+    }
+
+    .loading {
+        margin: 10px 0 10px 0;
+        width: 50px;
+        height: 50px;
+    }
+
+}

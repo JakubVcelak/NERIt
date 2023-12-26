@@ -1,0 +1,358 @@
+.result {
+    height: 300px;
+    overflow-y: scroll;
+    margin: 1px 1px 1px 5px;
+    padding: 5px 5px 3px 3px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.PERSON, .PER, .persName, .PS, .PRS {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #ff0000 solid 3px;
+}
+
+.NORP, .NAT_REL_POL {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #b6a803 solid 3px;
+}
+
+.FAC, .GPE_ORG, .FACILITY {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #286500 solid 3px;
+}
+
+.ORG, .orgName, .OG, .ORGANIZATION {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #73ff00 solid 3px;
+}
+
+.GPE, .geogName, .GPE_LOC {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #03f3bc solid 3px;
+}
+
+.LOC, .placeName, .LC {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #dd00ff solid 3px;
+}
+
+.PRODUCT, .PROD {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #7300ff solid 3px;
+}
+
+.EVENT, .MISC, .EVT, .EVN {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #be4362 solid 3px;
+}
+
+.WORK_OF_ART {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #ff6a00 solid 3px;
+}
+
+.LAW {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #7e7e7e solid 3px;
+}
+
+.LANGUAGE {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #dfe806 solid 3px;
+}
+
+.DATE, .date, .DT, .DATETIME {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #0015ff solid 3px;
+}
+
+.TIME, .TI, .time, .PERIOD, .TME {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #58f6f2 solid 3px;
+}
+
+.PERCENT {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #755102 solid 3px;
+}
+
+.MONEY {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #b4297f solid 3px;
+}
+
+.QUANTITY, .QT {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #ded093 solid 3px;
+}
+
+.ORDINAL {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #b0de94 solid 3px;
+}
+
+.CARDINAL, .NUMERIC_VALUE {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #d98d8d solid 3px;
+}
+
+.MOVEMENT {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #fff3f3 solid 3px;
+}
+
+.PET_NAME {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #ff5287 solid 3px;
+}
+
+.PHONE {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #63c3ff solid 3px;
+}
+
+.TITLE_AFFIX {
+    color: #ffffff;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: #222229;
+    border: #d7cd00 solid 3px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .result {
+        line-height: 26px;
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .result {
+        height: 250px;
+        padding: 3px 3px 3px 3px;
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    .PERSON, .PER, .persName, .PS, .PRS {
+        padding: 0 3px 0 3px;
+        border: #ff0000 solid 2px;
+        margin-right: 3px;
+    }
+
+    .NORP, .NAT_REL_POL {
+        padding: 0 3px 0 3px;
+        border: #b6a803 solid 2px;
+        margin-right: 3px;
+    }
+
+    .FAC, .GPE_ORG, .FACILITY {
+        padding: 0 3px 0 3px;
+        border: #286500 solid 2px;
+        margin-right: 3px;
+    }
+
+    .ORG, .orgName, .OG, .ORGANIZATION {
+        padding: 0 3px 0 3px;
+        border: #73ff00 solid 2px;
+        margin-right: 3px;
+    }
+
+    .GPE, .geogName, .GPE_LOC {
+        padding: 0 3px 0 3px;
+        border: #03f3bc solid 2px;
+        margin-right: 3px;
+    }
+
+    .LOC, .placeName, .LC {
+        padding: 0 3px 0 3px;
+        border: #dd00ff solid 2px;
+        margin-right: 3px;
+    }
+
+    .PRODUCT, .PROD {
+        padding: 0 3px 0 3px;
+        border: #7300ff solid 2px;
+        margin-right: 3px;
+    }
+
+    .EVENT, .MISC, .EVT, .EVN {
+        padding: 0 3px 0 3px;
+        border: #be4362 solid 2px;
+        margin-right: 3px;
+    }
+
+    .WORK_OF_ART {
+        padding: 0 3px 0 3px;
+        border: #ff6a00 solid 2px;
+        margin-right: 3px;
+    }
+
+    .LAW {
+        padding: 0 3px 0 3px;
+        border: #7e7e7e solid 2px;
+        margin-right: 3px;
+    }
+
+    .LANGUAGE {
+        padding: 0 3px 0 3px;
+        border: #dfe806 solid 2px;
+        margin-right: 3px;
+    }
+
+    .DATE, .date, .DT, .DATETIME {
+        padding: 0 3px 0 3px;
+        border: #0015ff solid 2px;
+        margin-right: 3px;
+    }
+
+    .TIME, .TI, .time, .PERIOD, .TME {
+        padding: 0 3px 0 3px;
+        border: #58f6f2 solid 2px;
+        margin-right: 3px;
+    }
+
+    .PERCENT {
+        padding: 0 3px 0 3px;
+        border: #755102 solid 2px;
+        margin-right: 3px;
+    }
+
+    .MONEY {
+        padding: 0 3px 0 3px;
+        border: #b4297f solid 2px;
+        margin-right: 3px;
+    }
+
+    .QUANTITY, .QT {
+        padding: 0 3px 0 3px;
+        border: #ded093 solid 2px;
+        margin-right: 3px;
+    }
+
+    .ORDINAL {
+        padding: 0 3px 0 3px;
+        border: #b0de94 solid 2px;
+        margin-right: 3px;
+    }
+
+    .CARDINAL, .NUMERIC_VALUE {
+        padding: 0 3px 0 3px;
+        border: #d98d8d solid 2px;
+        margin-right: 3px;
+    }
+
+    .MOVEMENT {
+        padding: 0 3px 0 3px;
+        border: #fff3f3 solid 2px;
+        margin-right: 3px;
+    }
+
+    .PET_NAME {
+        padding: 0 3px 0 3px;
+        border: #ff5287 solid 2px;
+        margin-right: 3px;
+    }
+
+    .PHONE {
+        padding: 0 3px 0 3px;
+        border: #63c3ff solid 2px;
+        margin-right: 3px;
+    }
+
+    .TITLE_AFFIX {
+        padding: 0 3px 0 3px;
+        border: #d7cd00 solid 2px;
+        margin-right: 3px;
+    }
+}
